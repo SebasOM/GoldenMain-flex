@@ -1,0 +1,1197 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 13.7rem;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin: 0px auto;
+}
+
+#menu {
+    width: 100%;
+    background-color: rgb(64, 112, 244);
+    overflow: hidden;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    float: left;
+    margin: auto 7.5rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Molendra', sans-serif;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    border-bottom: 0.3rem solid rgb(0, 0, 0);
+    border-radius: 0.1;
+}
+
+#banner {
+    background-image: url(/imagenes/banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+    z-index: 1;
+    position: relative;
+    border-bottom: 0.06rem solid black;
+    overflow: hidden;
+}
+
+.eltra {
+    width: 100%;
+    height: 100%;
+}
+
+#banner::after {
+    content: '';
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+#t_uno {
+    color: white;
+    padding: 3rem 1.3rem 0 3rem;
+    font-size: 1.8rem;
+    font-family: 'Donut Days', sans-serif;
+    font-weight: bold;
+}
+
+#t_dos {
+    color: rgb(64, 112, 244);
+    padding: 3rem 1.3rem 0 3rem;
+    font-size: 3.1rem;
+    font-family: 'Donut Days', sans-serif;
+    font-weight: bold;
+}
+
+#cont_gen {
+    background-color: white;
+    width: 100%;
+    height: 110rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+h2 {
+    text-transform: uppercase;
+
+
+}
+.parra-1 {
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+}
+.parra-2 {
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+}
+.parra-3 {
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+}
+
+.t_con-1{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Molendra', sans-serif;
+}
+.t_con-2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Molendra', sans-serif;
+}
+
+.t_con-3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Molendra', sans-serif;
+}
+
+
+#biografia {
+    width: 100%;
+    height: 25rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3.7rem;
+    background-color: white;
+
+}
+
+#spa {
+    width: 100%;
+    height: 25rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 112, 244);
+    padding-right: 3.7rem;
+}
+
+#medis {
+    width: 100%;
+    height: 25rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3.7rem;
+}
+
+#img1 {
+    border-radius: 2%;
+    height: 18.7rem;
+    border: solid 0.3rem blue;
+    margin-right: 6rem;
+}
+
+#img2 {
+    border-radius: 2%;
+    height: 18.7rem;
+    border: solid 0.3rem rgb(255, 255, 255);
+    margin-left: 6rem;
+
+
+}
+
+#img3 {
+    border-radius: 2%;
+    height: 18.7rem;
+    border: solid 0.3rem blue;
+    margin-right: 6rem;
+}
+
+#texto1 {
+    float: left;
+    width: 55%;
+    font-family: 'Donut Days', sans-serif;
+}
+
+#texto2 {
+    float: right;
+    width: 55%;
+    font-family: 'Donut Days', sans-serif;
+}
+
+#texto3 {
+    float: left;
+    width: 55%;
+    font-family: 'Donut Days', sans-serif;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 25rem;
+    
+}
+
+.caja1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja1 img {
+    float: left;
+}
+
+.caja1 h2 {
+    margin: 0 0.4rem;
+}
+
+.contacto {
+    display: inline-block;
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.contacto2 {
+    float: right;
+}
+
+.contacto p {
+    margin: 1.3rem;
+    color: white;
+}
+
+.icons {
+    height: 9.3rem;
+    width: 100%;
+    align-items: center;
+}
+
+.icons nav ul {
+    margin-left: 10rem;
+}
+
+.icons nav ul li {
+    margin: 0;
+    padding: 0;
+    margin-right: 0.5rem;
+}
+
+@media (min-width:0px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }  
+    #menu {
+        width: 100%;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    }  
+    nav ul li {
+        display: flex;
+        flex-direction: row;
+        margin: 0.1rem 1.7rem;
+        justify-content: space-between;
+    }
+    nav ul li a {
+        font-size: 1rem;  
+    }
+    
+
+}
+@media (min-width:480px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }  
+    #menu {
+        width: 100%;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }  
+    nav ul li {
+        display: flex;
+        flex-direction: row;
+        margin: 0.1rem 3rem;
+        justify-content: space-between;
+    }
+    nav ul li a {
+        font-size: 1rem;  
+    }
+    #banner {
+        width: 100%;
+        height: 15rem;
+        z-index: 1;
+        position: relative;
+        border-bottom: 0.06rem solid black;
+    }
+    #t_uno {
+        padding: 3rem 1.3rem 0 3rem;
+        font-size: 1.3rem;
+    }
+    
+    #t_dos {
+        padding: 1rem 1.3rem 0 3rem;
+        font-size: 1.7rem;
+    }
+}
+@media (min-width:760px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+    #menu {
+        width: 100%;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    }  
+    nav ul li {
+        display: flex;
+        flex-direction: row;
+        margin: 0.1rem 6rem;
+        justify-content: space-evenly;
+    }
+    nav ul li a {
+        font-size: 1rem;  
+    }
+    #banner {
+        width: 100%;
+        height: 15rem;
+        z-index: 1;
+        position: relative;
+        border-bottom: 0.06rem solid black;
+    }
+    #t_uno {
+        padding: 3rem 1.3rem 0 3rem;
+        font-size: 1.6rem;
+    }
+    
+    #t_dos {
+        padding: 1rem 1.3rem 0 3rem;
+        font-size: 2rem;
+    }
+}
+
+/*AQUI EMPIEZA EL RESPONSIVE DE LOS CONTENEDORES*/
+
+/*CONTENEDOR BIOGRAFIA*/
+@media (min-width:0px) {
+    #biografia {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0;
+        height:40rem; 
+    }
+    #texto1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%; 
+        text-align: center;
+        font-family: 'Donut Days', sans-serif;
+        margin-bottom: 10rem;      
+    }
+    .t_con-1{
+        display: flex;
+        font-size: 1.5rem;
+        margin-left: 8rem;        
+    }
+.parra-1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.02rem;
+    height: 1rem;
+    margin-top: 0;
+    padding-bottom: 3rem;
+}
+#img1 {
+    border-radius: 2%;
+    height: 10rem;
+    border: solid 0.3rem blue;
+    margin-right: 0.5rem;   
+}
+.imagen-1{
+    width: 12rem;
+    height: 10rem;
+}
+}
+@media (min-width:480px) {
+    #biografia {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0;
+        height:40rem; 
+    }
+    #texto1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%; 
+        text-align: center;
+        font-family: 'Donut Days', sans-serif;
+        margin-bottom: 10rem;      
+    }
+    .t_con-1{
+        display: flex;
+        font-size: 1.5rem;
+        margin-left: 8rem;        
+    }
+.parra-1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.02rem;
+    height: 1rem;
+    margin-top: 0;
+    padding-bottom: 3rem;
+}
+#img1 {
+    border-radius: 2%;
+    height: 10rem;
+    border: solid 0.3rem blue;
+    margin-right: 0.5rem;   
+}
+.imagen-1{
+    width: 12rem;
+    height: 10rem;
+}
+}
+@media (min-width:760px) {
+    #biografia {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0;
+        height:40rem;
+    }
+    #texto1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%; 
+        text-align: center;
+        font-family: 'Donut Days', sans-serif;
+        margin-bottom: 10rem;       
+    }
+    .t_con-1{
+        display: flex;
+        font-size: 1.7rem;
+        margin-left: 15rem;        
+    }
+    .parra-1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.2rem;
+        height: 1rem;
+        margin-top: 0;
+        padding-bottom: 3rem;
+    }
+    #img1 {
+        border-radius: 2%;
+        height: 14rem;
+        border: solid 0.3rem blue;
+        margin-right: 0.5rem;  
+    }
+    .imagen-1{
+        width: 16rem;
+        height: 14rem;
+    }
+}
+
+/*CONTENEDOR C. NUTRICIONAL*/
+@media (min-width:0) {
+    #spa {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-right: 0;
+        height:35rem;
+    
+    }
+    #texto2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%; 
+        text-align: center;
+        font-family: 'Donut Days', sans-serif;
+    }
+    .t_con-2{
+        display: flex;
+        font-size: 1.5rem;
+        margin-left: 0.5rem; 
+    }
+    .parra-2 {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.02rem;
+        height: 1rem;
+        margin-top: 0;
+        padding-bottom: 15rem;     
+    }
+    #img2 {
+
+    border-radius: 2%;
+    height: 10rem;
+    border: solid 0.3rem blue;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    }
+    .imagen-2{
+    width: 12rem;
+    height: 10rem;
+    }
+}
+
+@media (min-width:480px) {
+    #spa {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-right: 0;
+        height:35rem;
+    
+    }
+    #texto2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%; 
+        text-align: center;
+        font-family: 'Donut Days', sans-serif;
+    }
+    .t_con-2{
+        display: flex;
+        font-size: 1.5rem;
+        margin-left: 0.5rem; 
+    }
+    .parra-2 {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.02rem;
+        height: 1rem;
+        margin-top: 0;
+        padding-bottom: 15rem;     
+    }
+    #img2 {
+
+    border-radius: 2%;
+    height: 10rem;
+    border: solid 0.3rem blue;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    }
+    .imagen-2{
+    width: 12rem;
+    height: 10rem;
+    }
+}
+
+@media (min-width:760px){
+    #spa {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-right: 0;
+        height:35rem;
+    
+    }
+    #texto2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%; 
+        text-align: center;
+        font-family: 'Donut Days', sans-serif;
+        margin-top: 1.5rem;
+    }
+    .t_con-2{
+        display: flex;
+        font-size: 1.5rem;
+        margin-left: 5rem; 
+    }
+    .parra-2 {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.2rem;
+        height: 1rem;
+        margin-top: 0;
+        padding-bottom: 15rem;     
+    }
+    #img2 {
+
+    border-radius: 2%;
+    height: 14rem;
+    border: solid 0.3rem blue;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    }
+    .imagen-2{
+    width: 16rem;
+    height: 14rem;
+    }
+}
+
+/*CONTENEDOR MEDIS */
+@media (min-width:0px) {
+    #medis {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0;
+        height:25rem;
+    
+    }
+    #texto3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%; 
+        text-align: center;
+        font-family: 'Donut Days', sans-serif;
+        
+    }
+    .t_con-3{
+        display: flex;
+        font-size: 1.5rem;
+        margin-left: 1rem;        
+    }
+    .parra-3 {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.02rem;
+        height: 1rem;
+        margin-top: 0;
+        padding-bottom: 3rem;
+    }
+    #img3 {
+
+        border-radius: 2%;
+        height: 10rem;
+        border: solid 0.3rem blue;
+        margin-right: 0.5rem;
+        
+    }
+    .imagen-3{
+        width: 12rem;
+        height: 10rem;
+    }
+}
+@media (min-width:480px) {
+    #medis {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0;
+        height:25rem;
+    
+    }
+    #texto3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%; 
+        text-align: center;
+        font-family: 'Donut Days', sans-serif;
+        
+    }
+    .t_con-3{
+        display: flex;
+        font-size: 1.5rem;
+        margin-left: 1rem;        
+    }
+    .parra-3 {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.02rem;
+        height: 1rem;
+        margin-top: 0;
+        padding-bottom: 3rem;
+    }
+    #img3 {
+
+        border-radius: 2%;
+        height: 10rem;
+        border: solid 0.3rem blue;
+        margin-right: 0.5rem;
+        
+    }
+    .imagen-3{
+        width: 12rem;
+        height: 10rem;
+    }
+}
+
+@media (min-width:760px){
+    #medis {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0;
+        height:25rem;
+    
+    }
+    #texto3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 82%; 
+        text-align: center;
+        font-family: 'Donut Days', sans-serif;        
+    }
+    .t_con-3{
+        display: flex;
+        font-size: 1.5rem;
+        margin-left: 7.5rem;        
+    }
+    .parra-3 {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.2rem;
+        height: 1rem;
+        margin-top: 0;
+        padding-bottom: 3rem;
+    }
+    #img3 {
+        border-radius: 2%;
+        height: 13rem;
+        border: solid 0.3rem blue;
+        margin-right: 0.5rem;      
+    }
+    .imagen-3{
+        width: 16rem;
+        height: 13rem;
+    }
+}
+
+/*MEDIA FOOTER*/
+@media (min-width:0) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0;
+        height: 36rem;
+        
+    }
+    .caja1{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-logo{
+        width: 15rem;
+        flex-direction: row;
+        margin-left: 7.5rem;
+    }
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center; 
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .icons {
+        height: 9.3rem;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .icons nav ul {
+        margin-left: 10rem;
+    }
+    
+    .icons nav ul li {
+        margin: 0;
+        padding: 0;
+        margin-right: 0.5rem;
+    }
+}
+@media (min-width:480px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0;
+        height: 36rem;
+        
+    }
+    .caja1{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-logo{
+        width: 15rem;
+        flex-direction: row;
+        margin-left: 7.5rem;
+    }
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center; 
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .icons {
+        height: 9.3rem;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .icons nav ul {
+        margin-left: 10rem;
+    }
+    
+    .icons nav ul li {
+        margin: 0;
+        padding: 0;
+        margin-right: 0.5rem;
+    }
+}
+
+@media (min-width:760px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0;
+        height: 36rem;
+        
+    }
+    .caja1{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-logo{
+        width: 15.2rem;
+        flex-direction: row;
+        margin-left: 16.5rem;
+    }
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center; 
+    }
+    p{
+        font-size: 1.09rem;
+    }
+    .icons {
+        height: 9.3rem;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .icons nav ul {
+        margin-left: 18rem;
+    }
+    
+    .icons nav ul li {
+        margin: 0;
+        padding: 0;
+        margin-right: 0.5rem;
+    }
+}
+@media(min-width:1200px){
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    header {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 13.7rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    #logo {
+        margin: 0px auto;
+    }
+    
+    #menu {
+        width: 100%;
+        background-color: rgb(64, 112, 244);
+        overflow: hidden;
+        height: 2.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    nav ul li {
+        float: left;
+        margin: auto 7.5rem;
+        list-style: none;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family: 'Molendra', sans-serif;
+        font-size: 1.1rem;
+    }
+    
+    nav ul li a:hover {
+        border-bottom: 0.3rem solid rgb(0, 0, 0);
+        border-radius: 0.1;
+    }
+    
+    #banner {
+        background-image: url(/imagenes/banner.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 25rem;
+        z-index: 1;
+        position: relative;
+        border-bottom: 0.06rem solid black;
+        overflow: hidden;
+    }
+    
+    .eltra {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #banner::after {
+        content: '';
+        width: 100%;
+        height: 25rem;
+        position: absolute;
+        background-color: black;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+        z-index: -1;
+    }
+    
+    #t_uno {
+        color: white;
+        padding: 3rem 1.3rem 0 3rem;
+        font-size: 1.8rem;
+        font-family: 'Donut Days', sans-serif;
+        font-weight: bold;
+    }
+    
+    #t_dos {
+        color: rgb(64, 112, 244);
+        padding: 3rem 1.3rem 0 3rem;
+        font-size: 3.1rem;
+        font-family: 'Donut Days', sans-serif;
+        font-weight: bold;
+    }
+    
+    #cont_gen {
+        background-color: white;
+        width: 100%;
+        height: 80rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+    
+    
+    }
+    .parra-1 {
+        margin-top: 1.3rem;
+        font-size: 1.3rem;
+        color: rgb(0, 0, 0);
+    }
+    .parra-2 {
+        margin-top: 1.3rem;
+        font-size: 1.3rem;
+        color: rgb(0, 0, 0);
+    }
+    .parra-3 {
+        margin-top: 1.3rem;
+        font-size: 1.3rem;
+        color: rgb(0, 0, 0);
+    }
+    
+    p {
+        margin-top: 1.3rem;
+        font-size: 1.3rem;
+        color: rgb(0, 0, 0);
+    }
+    
+    .t_con-1{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Molendra', sans-serif;
+        margin-left: 30rem;
+    }
+    .t_con-2{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Molendra', sans-serif;
+        margin-left: 20rem;
+    }
+    
+    .t_con-3{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Molendra', sans-serif;
+        margin-left: 22.5rem;
+    }
+    
+    
+    #biografia {
+        width: 100%;
+        height: 25rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3.7rem;
+        background-color: white;
+    
+    }
+    
+    #spa {
+        width: 100%;
+        height: 25rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(64, 112, 244);
+        padding-right: 3.7rem;
+    }
+    
+    #medis {
+        width: 100%;
+        height: 25rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3.7rem;
+    }
+    
+    #img1 {
+        border-radius: 2%;
+        height: 18rem;
+        border: solid 0.3rem blue;
+        margin-right: 6rem;
+        margin-top: 3rem;
+    }
+
+    .imagen-1{
+        width: 25rem;
+        height: 18rem;
+    }
+    
+    #img2 {
+        border-radius: 2%;
+        height: 18rem;
+        border: solid 0.3rem rgb(255, 255, 255);
+        margin-left: 6rem;
+        margin-top: 3rem;
+    }
+    .imagen-2{
+        width: 25rem;
+        height: 18rem;
+    }
+    
+    #img3 {
+        border-radius: 2%;
+        height: 18rem;
+        border: solid 0.3rem blue;
+        margin-right: 6rem;
+        margin-top: 3rem;
+    }
+    .imagen-3{
+        width: 25rem;
+        height: 18rem;
+    }
+    
+    #texto1 {
+        float: left;
+        width: 55%;
+        font-family: 'Donut Days', sans-serif;
+        margin-top: 2rem;
+    }
+    
+    #texto2 {
+        float: right;
+        width: 55%;
+        font-family: 'Donut Days', sans-serif;
+        margin-top: 6rem;
+    }
+    
+    #texto3 {
+        float: left;
+        width: 55%;
+        font-family: 'Donut Days', sans-serif;
+        margin-top: 7rem;
+    }
+    
+    
+    
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 37.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .caja1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .img-logo{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 20rem;
+        margin-left: 45rem;
+    }
+    
+    .caja1 h2 {
+        margin: 0 0.4rem;
+    }
+    
+    .contacto {
+        display: inline-block;
+        text-align: center;
+        margin-left: 40rem;
+        margin-top: 0;
+    }
+    
+    .contacto2 {
+        display: flex;
+    }
+    
+    .contacto p {
+        margin: 1.3rem;
+        color: white;
+    }
+    
+    .icons {
+        height: 9.3rem;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .icons nav ul {
+        margin-left: 10rem;
+    }
+    
+    .icons nav ul li {
+        margin: 0;
+        padding: 0;
+        margin-right: 0.5rem;
+    }
+    
+}
+

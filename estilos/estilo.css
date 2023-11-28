@@ -1,0 +1,177 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+#contenedor {
+    background-color: #4070f4;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+.logo {
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+
+.logo img{
+    margin-left: 700px;
+}
+
+.menu {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    padding: 0px 110px;
+    margin: 5px 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.banner {
+    background-image: url(../img/ancianos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 5%;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin: auto;
+    color: black;
+}
+
+.banner h1 {
+    margin: 0px;
+    font-size: 2vw;
+}
+
+.banner h2 {
+    padding: 2%;
+    font-size: 2vw;
+}
+
+.vivienda-asistida {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+
+.parrafo {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen {
+    margin-right: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.vivienda-asistida-2 {
+    background-color: #4070f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parrafo-2 {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.imagen-2 {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.vivienda-asistida-3 {
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.parrafo-3 {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.imagen-3 {
+    margin-left: 850px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: black;
+    border: solid 2px white;
+    color: white;
+    text-align: center;
+    height: 30VH;
+}
+
+
+.caja1 img {
+    float: left;
+}
+
+.nombres {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.caja1 h2 {
+    margin: 0px 7px;
+}
+
+.contacto {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.contacto2 {
+   
+    float: right;
+
+}
+
+.contacto p {
+    margin: 20px 0;
+
+}

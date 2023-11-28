@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+body{
+    
+    background-image: url(/img/02.png);
+
+    background-size: cover;
+}
+
+
+.cont_log{
+    width: 40%;
+    height: 650px;
+    margin: 250px auto;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 50px 20px;
+    overflow: hidden;
+
+}
+
+.form{
+
+    width: 80%;
+    overflow: hidden;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    
+
+
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+
+
+
+.formulario{
+
+    margin: 90px auto;
+    width: 60%;
+    height: 250px;
+    text-align: center;
+    
+
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 4%;
+    outline: none;
+    text-indent: 10px;
+}
+
+input:focus{
+    box-shadow: 5px 4px;
+}
+
+Button{
+    margin-top: 10px;
+    width: 40%;
+    height: 40px;
+    background-color: white;
+
+}
+
+Button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.low_form{
+    margin-top: 40px;
+    
+
+    }
+
+
+
+
+  .volver{
+    margin-top: 50px;
+  }
